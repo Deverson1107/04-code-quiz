@@ -5,18 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Coding Quiz</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <div>View Highscores</div>
-    <div class = "timer"></div>
-    <h1 class = "banner"></h1>
-    <div class = "question"></div>
-    <button class = "button5"></button>
-    <button class = "button1"></button>
-    <button class = "button2"></button>
-    <button class = "button3"></button>
-    <button class = "button4"></button>
-    <div class= "status"></div>
+    <div class = "stats row">
+        <div class= "col-lg-3 offset-1">
+            <div class= "highscore"></div>
+            <div class= "score"></div>
+            <div class = "timer">Time left:</div>
+        </div>
+    </div>
+
+    <div class= "row mt-3">
+        <h1 class = "banner text-center col-12">Coding Quiz</h1>
+    </div>
+
+    <div class= "row">
+        <div class = "question container py-5 px-3 my-3">
+            Welcome to the coding quiz! You will have 3 minutes to complete the quiz.
+            Each correct answer will award 10 points. Each incorrect answer will take 10 seconds off of
+            the timer. The quiz will end once you have either answered all the questions or the timer runs 
+            out. Good luck!
+        </div>
+    </div>
+     
+    <div class= "buttons container">
+    </div>
+
+    <div class= "status row"></div>
+
 </body>
 <script src="assets/js/script.js"></script>
 </html>
