@@ -42,6 +42,12 @@ function countdown() {
     }, 1000);
 }
 
+//Takes off 10 seconds from the timer.
+function stopcountdown() {
+    seconds -= 10;
+    console.log(seconds);
+}
+
 //Question 1 layout.
 function question1() {
     a1.remove();
@@ -52,7 +58,8 @@ function question1() {
     a1.innerHTML = "String";
     document.body.children[3].appendChild(a1);
     a1.addEventListener("click", function () {
-        question2();  
+        question2();
+        stopcountdown();  
     });
 
     a2 = document.createElement("BUTTON");
