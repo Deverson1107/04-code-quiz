@@ -30,11 +30,30 @@ button {
     color: white;
     background-color: rgb(136, 25, 136);
     border: 1px solid black;
-    margin-right: 20px;
     margin-top: 30px;
+    margin-right: 5px;
+    margin-left: 5px;
 }
 
 button:hover {
     background-color: rgb(114, 21, 114)
+}
+
+.highbutton {
+    font-size: 14px;
+    margin-top: 2px;
+    margin-left: 0;
+}
+
+textarea {
+    height: 30px;
+    margin-top: 10px;
+    resize: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cw {
+    font-size: 32px;
 }
 
